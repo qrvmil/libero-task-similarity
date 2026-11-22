@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+.env
+/.DS_Store
+/data/
+/results/
+/checkpoints/
+/cache/
+/dart/
+/simenv/
+/libero-config/

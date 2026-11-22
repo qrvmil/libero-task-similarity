@@ -1,0 +1,23 @@
+{
+  "suite": "libero_90",
+  "checkpoint": "checkpoints/pi05_libero",
+  "training_seed": 7,
+  "training_demo_count": 50,
+  "steps": 1000,
+  "effective_batch": 64,
+  "microbatch": 8,
+  "evaluation": {"seeds": [42, 3407], "trials": 50},
+  "groups": {
+    "basket": [
+      {"id": 50, "scene": "LIVING_ROOM_SCENE2", "prompt": "pick up the alphabet soup and put it in the basket"},
+      {"id": 53, "scene": "LIVING_ROOM_SCENE2", "prompt": "pick up the orange juice and put it in the basket"}
+    ],
+    "bowl": [
+      {"id": 9, "scene": "KITCHEN_SCENE1", "prompt": "put the black bowl on the plate"},
+      {"id": 14, "scene": "KITCHEN_SCENE2", "prompt": "put the middle black bowl on the plate"}
+    ],
+    "drawer": [
+      {"id": 0, "scene": "KITCHEN_SCENE10", "prompt": "close the top drawer of the cabinet"}
+    ]
+  }
+}
